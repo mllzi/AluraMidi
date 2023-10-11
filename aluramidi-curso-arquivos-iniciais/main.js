@@ -1,6 +1,14 @@
-function tocaSom (idElementoAudio) {
-    document.querySelector(idElementoAudio).play();
+function tocaSomPom () {
+    document.querySelector('#som_tecla_pom').play();
 
 }
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
-//para
+const ListaDeTeclas = document.querySelectorAll('.tecla');
+
+
+
+//document.querySelector('.tecla_pom').onclick = tocaSomPom;
+
+//document.querySelector('#som_tecla_pom').play();
+//document.querySelector('.tecla_pom')
