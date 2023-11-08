@@ -1,6 +1,6 @@
-var caraterPilConors = "arrogante";
+var charaterPilConors = "arrogante";
 var dia = 1;
-while (caraterPilConors  == "arrogante"){
+while (charaterPilConors  == "arrogante"){
     if (dia == 1){
         console.log(dia+") Aprenda a ter Humildade e Empatia");
     }
@@ -14,8 +14,8 @@ while (caraterPilConors  == "arrogante"){
         console.log(dia+") Aprecie a Vida Cotidiana");
     }
     if (dia == 5){
-        caraterPilConors = "Phil Connors se tornou uma pessoa melhor";
-        console.log(caraterPilConors);
+        charaterPilConors = "Phil Connors se tornou uma pessoa melhor";
+        console.log(charaterPilConors);
     }
     dia = dia + 1;
 }
